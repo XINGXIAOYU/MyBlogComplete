@@ -1,0 +1,204 @@
+
+/*end reset*/
+/*--login start here--*/
+body{
+    background: url(../image/paper.jpg)repeat;
+    padding:10px 0px 30px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+#wrapper{
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+fieldset{
+    border: none;
+}
+.login,.register {
+    width: 450px;
+    margin: 0 auto;
+}
+.login h2,.register h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+    font-family: 'Droid Serif', serif;
+}
+.login-top,.register-top,.popular-top {
+    background: #FFF8DC;
+    border-radius: 25px 25px 0px 0px;
+    -webkit-border-radius:  25px 25px 0px 0px;
+    -moz-border-radius: 25px 25px 0px 0px;
+    -o-border-radius: 25px 25px 0px 0px;
+    padding: 40px 60px;
+
+}
+.login-top h1,.register-top h1,.popular-top h1 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    color: #CDAA7D;
+    margin: 0px 0px 20px 0px;
+
+}
+.login-top input[type="text"],.register-top input[type="text"] {
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #818181;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border: 1px solid #ccc;
+    border-radius:25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 0px 0px 12px 0px;
+    width: 88%;
+    -webkit-appearance: none;
+}
+.login-top input[type="password"],.register-top input[type="password"]{
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #818181;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border: 1px solid #ccc;
+    border-radius:25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 0px 0px 12px 0px;
+    width: 88%;
+    -webkit-appearance: none;
+}
+
+.deal input[type="submit"] {
+    background: #B03060;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 8px 7px;
+    width: 20%;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin: 0px 7px 0px 3px;
+    outline: none;
+    border: none;
+}
+.popular-top ul li a{
+    cursor: pointer;
+    text-decoration:none;
+    color: rgba(176,48,96,0.8);
+}
+.popular-top ul li a:hover{
+    color:#8B7765;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.deal input[type="submit"]:hover{
+    background:#8B7765;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.deal {
+    text-align: right;
+}
+.login-bottom,.register-bottom {
+    background: rgba(176,48,96,1);
+    padding: 30px 65px;
+    border-radius: 0px 0px 25px 25px;
+    -webkit-border-radius:  0px 0px 25px 25px;
+    -moz-border-radius: 0px 0px 25px 25px;
+    -o-border-radius: 0px 0px 25px 25px;
+    text-align: right;
+    border-top: 2px solid #AD4337;
+}
+.login-bottom h3,.register-bottom h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+.login-bottom h3 a,.register-bottom h3 a {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+.login-bottom h3 a:hover,.register-bottom h3 a:hover {
+    color:#EEE8CD;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+/*--login end here--*/
+
+.register {
+    display: none;
+}
+
+fieldset{
+    position: absolute;
+}
+
+.popular{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    left:21%;
+}
+
+.popular-top{
+    -webkit-border-radius:  25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -o-border-radius: 25px 25px 25px 25px;
+}
+
+.register-top input[type="text"],.register-top input[type="password"]{
+    margin: 5px 0px 0px 0px;
+}
+
+#myForm2 span{
+    font-size: 12px;
+    color: rgba(255,106,106,0.8);
+    height: 18px;
+    padding-left: 20px;
+    margin-bottom:5px;
+
+}
+.popular-top ul li{
+    font-size: 18px;
+    color: rgba(176,48,96,0.8);
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+    font-weight:bold;
+}
+
+
+.popular-top ul li div{
+    font-size: 15px;
+    color: rgb(224,184,135);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: normal;
+    border-bottom: 2px solid #FFF;
+}
+
